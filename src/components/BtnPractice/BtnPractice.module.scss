@@ -1,0 +1,29 @@
+.btn-movie {
+    padding: 6px;
+    cursor: pointer;
+
+    &.active .practice {
+        background-color: var(--text-yellow);
+    }
+}
+
+.practice {
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    border-radius: 2px;
+    background: var(--color-blue);
+    color: var(--witch) !important;
+    padding: 5px 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+}

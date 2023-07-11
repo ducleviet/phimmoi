@@ -1,0 +1,13 @@
+.title {
+    color: var(--text-yellow);
+    font-weight: 700;
+    font-size: 3.6rem;
+    padding: 0 6px;
+}
+
+.list-movies {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 36px;
+}

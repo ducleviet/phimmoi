@@ -1,0 +1,26 @@
+.menu-item {
+    padding: 25px 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #899ead;
+
+    &.active {
+        color: var(--witch);
+        border-bottom: 2px solid #f1b722;
+    }
+
+    &:hover {
+        color: var(--witch);
+    }
+}
+
+//Movile
+
+@media only screen and (max-width: 46.1875em) {
+    li {
+        padding: 16px 0 16px 16px;
+    }
+    .menu-item {
+        padding: 0;
+    }
+}

@@ -1,0 +1,113 @@
+.wrapper {
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 32px;
+
+    p {
+        margin-right: 10px;
+    }
+}
+
+.block-comment {
+    margin-top: 20px;
+    padding: 25px;
+    background-color: #fff;
+}
+
+.input-comment {
+    display: flex;
+    align-items: flex-start;
+}
+
+.list-comment {
+    margin-top: 30px;
+}
+
+.use-block {
+    display: flex;
+    margin-top: 18px;
+}
+
+.block-conten {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    font-weight: 600;
+    color: #385898;
+    cursor: pointer;
+}
+.comment {
+    color: #333;
+}
+
+.btn-comment {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 12px;
+    background: #3578e5;
+    color: var(--witch);
+    border: none;
+    font-weight: 600;
+}
+
+.input-title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.input {
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    line-height: 32px;
+    resize: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333 !important;
+    border-radius: 8px;
+
+    &:not(:empty) + .btn-summit {
+        display: block;
+    }
+}
+
+.btn-summit {
+    display: none;
+    margin-top: 8px;
+    border: none;
+    padding: 0 8px;
+    height: 20px;
+    width: 100px;
+    background-color: var(--color-blue);
+
+    &:active {
+        border-color: #29487d;
+        background-color: #29487d;
+    }
+}
+
+.title-summit {
+    color: var(--witch);
+    font-size: 1.2rem;
+    font-weight: 500;
+}

@@ -1,0 +1,45 @@
+.input-title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.input {
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+    line-height: 32px;
+    resize: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333 !important;
+    border-radius: 8px;
+
+    &:not(:empty) + .btn-summit {
+        display: block;
+    }
+}
+
+.btn-summit {
+    display: none;
+    margin-top: 8px;
+    border: none;
+    padding: 0 8px;
+    height: 20px;
+    width: 100px;
+    background-color: var(--color-blue);
+
+    &:active {
+        border-color: #29487d;
+        background-color: #29487d;
+    }
+}
+
+.title-summit {
+    color: var(--witch);
+    font-size: 1.2rem;
+    font-weight: 500;
+}

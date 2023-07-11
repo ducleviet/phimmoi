@@ -1,0 +1,64 @@
+.wrapper {
+    padding: 6px;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.halim-item {
+    position: relative;
+}
+
+.container-img {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img {
+    height: 278px;
+    min-height: 278px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.status {
+    line-height: 17px;
+    min-width: 40px;
+    left: 6px;
+    top: 8px;
+    display: block;
+    text-align: center;
+    padding: 2px 6px;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #8e2de2 0%, #000046 51%, #1cb5e0 100%);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title span {
+    line-height: 1.4;
+
+    &:hover {
+        text-decoration: underline;
+        color: var(--text-yellow);
+    }
+}
+
+@media only screen and (max-width: 46.1875em) {
+    .wrapper {
+        width: 50%;
+    }
+}
